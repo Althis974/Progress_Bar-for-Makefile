@@ -1,6 +1,6 @@
 # Progress_Bar-for-Makefile
 
-This project is just a revisit of the original work of Alexandre PUJOl adapted to be used in Makefile.
+This project is just a revisit of the original work of Alexandre PUJOL adapted to be used in Makefile.
 
 Find example about how to use it here : https://github.com/Althis974/Fractol/blob/master/Makefile
 
