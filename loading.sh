@@ -6,7 +6,7 @@
 #    By: rlossy <marvin@le-101.fr>                  +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2018/04/16 17:17:55 by rlossy       #+#   ##    ##    #+#        #
-#    Updated: 2018/04/17 16:16:02 by rlossy      ###    #+. /#+    ###.fr      #
+#    Updated: 2018/09/07 15:05:09 by rlossy      ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -14,9 +14,9 @@
 #!/bin/bash
 
 # Loading progressbar
-source /Users/rlossy/unitest/load/progressbar.sh || exit 1
+source /Users/rlossy/extra/Progress_Bar-for-Makefile/progressbar.sh || exit 1
 
-i=0 start=0 end=7
+i=0 start=0 end=6
 for i in $(seq ${start} ${end}); do
 	if [[ ("$2" != "o") ]] ; then 
 		sleep 0.1
@@ -25,7 +25,7 @@ for i in $(seq ${start} ${end}); do
 		progressbar "$1" ${i} ${end} "Compiling process..."
 	else
 		export ILoveCandy=true
-		progressbar "⥷ $4⭃ \t $1" ${i} ${end} "Deletion process..."
+		progressbar "⥷ $4⭃    $1" ${i} ${end} "Deletion process..."
 	fi
 done
 	if [[ ("$3" == "y") ]] ; then 
