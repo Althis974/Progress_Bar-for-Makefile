@@ -35,4 +35,4 @@ Every arguments are optionnals.
 
 ## https://github.com/roddhjav/progressbar
 ## progressbar - A pacman like progress bar in bash
-## Copyright (C) 2016 - 2017 Alexandre PUJOL <alexandre@pujol.io>.
+## Copyright (C) 2016 - 2018 Alexandre PUJOL <alexandre@pujol.io>.
