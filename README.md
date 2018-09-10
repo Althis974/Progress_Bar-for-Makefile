@@ -15,7 +15,7 @@ Find example about how to use it here : https://github.com/Althis974/Fractol/blo
    </tr>
      <tr>
        <td>First argument</td>
-       <td>Path to progress_bar script</td>
+       <td>Path to progressbar script</td>
    </tr>
      <tr>
        <td>Second argument</td>
