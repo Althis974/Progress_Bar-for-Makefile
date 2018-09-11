@@ -15,18 +15,22 @@ Find example about how to use it here : https://github.com/Althis974/Fractol/blo
    </tr>
      <tr>
        <td>First argument</td>
-       <td>Name of progress bar</td>
+       <td>Path to progressbar script</td>
    </tr>
      <tr>
        <td>Second argument</td>
-       <td>Type of bar (here, r : remove, a : library, e : executabe, o : object)</td>
+       <td>Name of progress bar</td>
    </tr>
      <tr>
        <td>Third argument</td>
-       <td>Need \n between bars ? (y/n)</td>
+       <td>Type of bar (here, r : remove, a : library, e : executabe, o : object)</td>
    </tr>
      <tr>
        <td>Fourth argument</td>
+       <td>Need \n between bars ? (y/n)</td>
+   </tr>
+     <tr>
+       <td>Fifth argument</td>
        <td>Specify name of bar (in case of multi-makefile for example)</td>
    </tr>
 </table>
